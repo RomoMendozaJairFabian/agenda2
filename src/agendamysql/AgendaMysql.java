@@ -7,7 +7,7 @@ package agendamysql;
 
 /**
  *
- * @author fabian
+ * @author Jafet
  */
 public class AgendaMysql {
 
