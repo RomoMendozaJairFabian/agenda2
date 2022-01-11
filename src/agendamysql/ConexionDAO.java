@@ -17,15 +17,15 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Jafet
+ * @author fabian
  */
 public class ConexionDAO {
     Connection conexion = null;
     List<DatosDTO> listaDatos = new ArrayList<>();
     private void conecta(){
         String user="root";
-        String password="root";
-        String url="jdbc:mysql://localhost:3306/4to20201?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+        String password="tesoem";
+        String url="jdbc:mysql://localhost:3306/prueba?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             conexion = DriverManager.getConnection(url, user, password);
