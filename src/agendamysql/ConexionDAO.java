@@ -17,7 +17,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Jafet
+ * 
  */
 public class ConexionDAO {
     Connection conexion = null;
