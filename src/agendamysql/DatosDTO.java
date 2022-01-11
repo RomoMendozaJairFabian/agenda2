@@ -7,7 +7,7 @@ package agendamysql;
 
 /**
  *
- * 
+ * @author Jafet
  */
 public class DatosDTO {
     String nombre, edad, sexo;
